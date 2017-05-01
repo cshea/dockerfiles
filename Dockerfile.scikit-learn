@@ -6,10 +6,7 @@ MAINTAINER Colin SHea <cshea3@umbc.edu>
 RUN apt-get update && apt-get install -y \
 		vim \
 		wget \
-		python3-dev \
-		python3-tk \
-		python3-numpy \
-    		tar \
+		tar && \
 		apt-get clean && \
 		apt-get autoremove && \
 		rm -rf /var/lib/apt/lists/*
